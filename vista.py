@@ -414,6 +414,8 @@ def main():
     # Create the argument parser
     parser = argparse.ArgumentParser(
         description="VISTA: Vulnerability Identification and Software Tracking Analyzer"
+                    "\nA tool for analyzing software repositories to identify vulnerabilities and track their impact."
+                    "\nDeveloped by Mohammed Shehab, Safwan Omari, and Yaser Jararweh"
     )
 
     # Add CLI arguments

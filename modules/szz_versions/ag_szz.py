@@ -51,7 +51,6 @@ class AGSZZ(AbstractSZZ):
 
         return blame_data
 
-    # TODO: add type check on kwargs
     def find_bic(self, fix_commit_hash: str, impacted_files: List['ImpactedFile'], **kwargs) -> Set[Commit]:
         """
         Find bug introducing commits candidates.
