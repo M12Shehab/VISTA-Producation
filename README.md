@@ -114,7 +114,8 @@ Ensure you have the following installed on your system:
     ```bash
     python vista.py
     ```
-2. The tool will start processing the commits and vulnerabilities. The output will be saved in the `data/{project_name}/` directory.
+2. Clone or access the repository specified in **config.json**
+3. The tool will start processing the commits and vulnerabilities. The output will be saved in the `data/{project_name}/` directory.
 
 ---
 ## **Acknowledgements**
