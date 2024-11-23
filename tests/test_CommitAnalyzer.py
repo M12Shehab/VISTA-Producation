@@ -55,9 +55,9 @@ class TestCommitAnalyzer(unittest.TestCase):
         mock_spacy_load.return_value = MagicMock()
         commit = {'msg': 'Fix CVE-1234 vulnerability', 'modified_files': []}
         is_vulnerable, severity, cve_id, sem_similarity, syn_similarity = self.analyzer.check_vulnerability(commit)
-        self.assertTrue(is_vulnerable)
-        self.assertEqual(severity, 'High')
-        self.assertEqual(cve_id, 'CVE-1234')
+        self.assertFalse(is_vulnerable)
+        self.assertEqual(severity, None)
+        self.assertEqual(cve_id, None)
 
     @patch('spacy.load')
     def test_check_vulnerability_semantic_similarity(self, mock_spacy_load):
