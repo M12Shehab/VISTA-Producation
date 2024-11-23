@@ -19,7 +19,7 @@ class TestCommitAnalyzer(unittest.TestCase):
     def setUp(self):
         # Sample CVE data
         self.cve_data = [
-            {'CVE_ID': 'CVE-1234', 'Description': 'Sample vulnerability description', 'Severity': 'High'}
+            {'CVE_ID': 'CVE-124', 'Description': 'Sample vulnerability description', 'Severity': 'High'}
         ]
         # Initialize CommitAnalyzer instance
         self.analyzer = CommitAnalyzer(self.cve_data, sem_threshold=0.75, syn_threshold=0.50)

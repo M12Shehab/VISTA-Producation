@@ -2,6 +2,7 @@
 
 VISTA is a tool designed to analyze and track vulnerabilities in software systems. It provides advanced features for commit analysis, static code inspection, and comprehensive vulnerability reporting. This tool leverages **srcML** and **CppCheck** for parsing and static analysis and integrates advanced techniques to label and classify vulnerabilities across software projects.
 
+[![Run Tests Units](https://github.com/M12Shehab/VISTA-Producation/actions/workflows/run_tests.yml/badge.svg)](https://github.com/M12Shehab/VISTA-Producation/actions/workflows/run_tests.yml)
 ---
 
 ## **Features**
