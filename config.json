@@ -1,0 +1,9 @@
+{
+  "project_name": "impala",
+  "code_repository_path": "C:/Users/Shehab/Downloads/impala",
+  "repo_url": "https://github.com/apache/impala.git",
+  "repository_branch": "main",
+  "file_ext_to_parse": ["cpp", "c", "h", "hpp"],
+  "num_workers": 1,
+  "nvd_api_key": "ADD_YOUR_NVD_API_KEY"
+}
