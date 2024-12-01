@@ -45,7 +45,7 @@ Ensure you have the following installed on your system:
 ### **4. Set up the Python Environment**
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/vista.git
+    git clone https://github.com/M12Shehab/vista.git
     cd vista
    ```
 2. Create a virtual environment (recommended):
@@ -68,7 +68,7 @@ Ensure you have the following installed on your system:
     ```json
     {
    "project_name": "impala",
-   "code_repository_path": "C:/Users/Shehab/Downloads/impala",
+   "code_repository_path": "C:/Users/USER-NAME/Downloads/impala",
    "repo_url": "https://github.com/apache/impala.git",
    "repository_branch": "main",
    "file_ext_to_parse": ["cpp", "c", "h", "hpp"],
